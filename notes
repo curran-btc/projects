@@ -1,10 +1,10 @@
-Machine Learning (inference): Train a machine learning model that could be utilized by organizations for making predictions off sensitive data (healthcare is a great example). Identify approaches that, without homomorphic encryption, have been trashed due to improper availability of data. As a crude example, predicting the geographical location of patients given their medical history. A second example is product recommendations, whereby we train a machine learning model to predict recommendations without exposing their underlying transaction history. A third example is voice assistants, where responses of Alexa in homes could be made without revealing the spoken commands. A fourth example is secure object recognition, without revealing the image desired to be inferred. Fifth example for geolocation based applications? 
-Machine Learning (training): Allow for the training of machine learning models on classified or sensitive data, without the company financing the computation to ever see the training data. 
-Statistics: Perform statistical analysis on sensitive underlying numerical data to product reports. An example could be generating census data for countries without citizens ever giving the government their information. A second example could be creating a credit score without seeing a client's underlying financial data.
-Biometrics
-Allow for fingerprinting and facial recognition technology without exposing citizens biometric features. 
-Collaboration
-Healthcare: Allow healthcare institutions to collaborate private patient data without breaking HIPPA (or related) violations. Are there actual use cases here? I like the idea of “Secure Data Driven Medicine”. 
-Miscellaneous
-Research: Transformers, through positional embeddings and tokenization, assume human readable language as input for machine learning. Has there been research in transitioning LLMs to work off cipher text rather than plaintext.
-AI-therapist + AI-mediatator
+Ideas
+  Machine Learning (inference): Train a machine learning model that could be utilized by organizations for making predictions off sensitive data (healthcare is a great example). Identify approaches that, without homomorphic encryption, have been trashed due to improper availability of data. As a crude example, predicting the geographical location of patients given their medical history. A second example is product recommendations, whereby we train a machine learning model to predict recommendations without exposing their underlying transaction history. A third example is voice assistants, where responses of Alexa in homes could be made without revealing the spoken commands. A fourth example is secure object recognition, without revealing the image desired to be inferred. Fifth example for geolocation based applications? 
+  Machine Learning (training): Allow for the training of machine learning models on classified or sensitive data, without the company financing the computation to ever see the training data. 
+  Statistics: Perform statistical analysis on sensitive underlying numerical data to product reports. An example could be generating census data for countries without citizens ever giving the government their information. A second example could be creating a credit score without seeing a client's underlying financial data.
+  Biometrics: Allow for fingerprinting and facial recognition technology without exposing citizens biometric features. 
+  Collaboration
+    Healthcare: Allow healthcare institutions to collaborate private patient data without breaking HIPPA (or related) violations. Are there actual use cases here? I like the idea of “Secure Data Driven Medicine”. 
+  Miscellaneous
+    Research: Transformers, through positional embeddings and tokenization, assume human readable language as input for machine learning. Has there been research in transitioning LLMs to work off cipher text rather than plaintext.
+    AI-therapy + AI-conflict mediation
