@@ -24,3 +24,5 @@ Resources:
   https://jeremykun.com/2023/02/13/googles-fully-homomorphic-encryption-compiler-a-primer/
   https://github.com/zama-ai/concrete-ml
   https://github.com/microsoft/SEAL
+  https://discuss.elastic.co/t/search-through-encrypted-data/278922
+  https://link.springer.com/content/pdf/10.1007/s40747-022-00756-z.pdf
