@@ -1,6 +1,6 @@
 50c: Analytics tool for companies with super sensitive data. (48)
 
-Time Elapsed: ≈02:10:00
+Time Elapsed: ≈ 02:10:00
 
 Problem: No [easy] way exists for governments to analyze sensitive data. 
   As a result, tons of useful insights are never surfaced, which leads to poor decisions and predicitons + bad performance. 
