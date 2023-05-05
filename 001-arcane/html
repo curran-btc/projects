@@ -2,14 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-  <meta property="og:type" content="website"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<meta property="og:type" content="website"/>
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
 	<title></title>
 	<style>
-     <!-- font rendering -->
-  </style>
-  <!-- link assets + shortcut icon + image/x-icon -->
-  <!-- link domain + canonical -->
+		<!-- font rendering -->
+	</style>
+	<!-- link assets + shortcut icon + image/x-icon -->
+	<!-- link domain + canonical -->
 </head>
 <body>
 	<div class="container">
