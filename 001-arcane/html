@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta property="og:type" content="website"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<title></title>
+	<style>
+     <!-- font rendering -->
+  </style>
+  <!-- link assets + shortcut icon + image/x-icon -->
+  <!-- link domain + canonical -->
+</head>
+<body>
+	<div class="container">
+		<h2></h2>
+		<input>
+    <input>
+		<button onclick="encrypt()">Encrypt</button>
+    <output>
+    <output> // const x const x const x function
+	</div>
+	<script src="https://unpkg.com/microsoft-seal/dist/seal.js"></script>
+	<script>
+		const polyModulusDegree = 8192;
+		<!-- const coeffModulus  -->
+		const plainModulus = new Microsoft.Seal.PlainModulus(1 << 20);
+		const context = new Microsoft.Seal.Context(polyModulusDegree, coeffModulus, plainModulus);
 
+		const parms = new Microsoft.Seal.EncryptionParameters(Microsoft.Seal.SchemeType.BFV);
+		parms.setPolyModulusDegree(polyModulusDegree);
+		parms.setCoeffModulus(coeffModulus);
+		parms.setPlainModulus(plainModulus);
+
+		const keyGenerator = new Microsoft.Seal.KeyGenerator(context);
+		const publicKey = keyGenerator.createPublicKey();
+		const secretKey = keyGenerator.createSecretKey();
+		const encryptor = new Microsoft.Seal.Encryptor(context, publicKey);
+
+		function encrypt() {
+			const input = document.getElementById("input").value;
+			const plaintext = new Microsoft.Seal.Plaintext(input);
+			const ciphertext = new Microsoft.Seal.Ciphertext();
+			encryptor.encrypt(plaintext, ciphertext);
+			console.log(ciphertext.toString());
+		}
+	</script>
+</body>
+</html>
