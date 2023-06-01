@@ -1,4 +1,4 @@
-50c: Analytics tool for companies with super sensitive data. (48)
+50c: Analytics tool for companies with super sensitive data. (48) Analytics tools powered by homo encryption. (44) Privacy-preserving analytics tool powered by homo encryption. (55)
 
 Time Elapsed: ≈ 02:35:00
 
