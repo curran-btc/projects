@@ -15,9 +15,14 @@ Goal: Unlock analytics capabilties to the owners on sensitive data via homomorph
   Deliver [analytics capabilities such as machine learning models or visualizations to companies with sensitive data without revealing the underlying data.]
   Cryptography replaces trust.
   Enable institutions to port their datasets into the best private and open-source models without incurring significant security risks. 
+  Enable operations to be performed on encrypted information = search, stats, aggregation, etc. 
 
 Stack:
 
+Use Cases: 
+  Storage and search
+  Collaboration
+  Monitorization
 
 Resources: 
   https://news.ycombinator.com/item?id=23435058
